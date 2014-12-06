@@ -1,4 +1,22 @@
 Termproject::Application.routes.draw do
+
+
+  get "static_pages/about_us"
+
+
+  get "static_pages/home"
+
+  get "static_pages/help"
+
+  get "static_pages/map"
+
+  get "static_pages/usersloggedin"
+
+  get 'signup' => 'users#new'
+
+
+  resources :users
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

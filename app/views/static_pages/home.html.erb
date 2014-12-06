@@ -1,0 +1,77 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Turkey Trot - Advocates for Free-Range Turkeys</title>
+
+    <link href="http://getbootstrap.com/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <link href="cover.css" rel="stylesheet">
+  </head>
+
+  <body>
+
+    <div class="site-wrapper">
+      <div class="site-wrapper-inner">
+        <div class="cover-container">
+          <div class="masthead clearfix">
+            <div class="inner">
+              <h3 class="masthead-brand">Advocates for Free-Range Turkeys</h3>
+              <nav>
+                <ul class="nav masthead-nav">
+                  <li class="active"><a href="home.html">Home</a></li>
+                  <li><a href="about_us.html">About Us</a></li>
+                  <li><a href="map.html">Map</a></li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+
+        <div class="inner cover">
+            <h1 class="cover-heading">Turkey Trot for the Kids</h1>
+            <p class="lead">Come and join us for the Turkey Trot for the kids.</p>
+			<br>
+			<br>
+			
+			<form class="form-signin" role="form">
+				<h2 class="form-signin-heading">Please Sign In:</h2>
+				<div class="col-lg-6">
+					<label for="inputEmail" class="sr-only">Email address</label>
+					<input type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
+					<label for="inputPassword" class="sr-only">Password</label>
+					<input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
+					
+				</div>
+				<div class="col-lg-6">
+					<button class="btn btn-lg btn-primary btn-block" type="submit">Sign In</button>
+					<div class="checkbox">
+					  <label>
+						<input type="checkbox" value="remember-me"> Remember me
+					  </label>
+					</div>
+				</div>
+				
+				<div class="col-lg-12">
+					<br>
+					<br>
+					<br>
+					<br>
+                  <%= link_to "...or Register Now!", signup_path, class: "btn btn-lg btn-primary btn-block" %>
+				</div>
+			</form>
+        </div>
+          <div class="mastfoot">
+            <div class="inner">
+              <p>Created for <a href="http://csuniv.edu/news/40under40-sessions.html">Dr. Sessions, PhD and billionaire</a>, by <a href="http://csuniv.edu/">Charleston Southern</a> students.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  </body>
+</html>
